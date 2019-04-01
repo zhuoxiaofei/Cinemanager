@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_vertical|center_horizontal"
+    android:background="@color/background"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:background="@color/activity_bg"
+        android:gravity="center"
+        android:text="注册新影院"
+        android:textColor="@color/bank_bg01"
+        android:textSize="30sp" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <RelativeLayout android:id="@+id/dialog_add_cinema_layout_area"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="选择地点"/>
+
+            <TextView android:id="@+id/dialog_add_tv_area"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="广西柳州市鱼峰区"
+                android:textColor="@color/colorPrimary"
+                android:textSize="20sp"
+                android:layout_marginStart="120dp"
+                android:layout_marginEnd="10dp"/>
+        </RelativeLayout>
+
+    </LinearLayout>
+    <EditText android:id="@+id/dialog_add_cinema_edt_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="请输入影院名称"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:orientation="horizontal">
+        <Button android:id="@+id/dialog_add_cinema_btn_cancel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="取消"/>
+        <Button android:id="@+id/dialog_add_cinema_btn_save"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="保存"/>
+    </LinearLayout>
+</LinearLayout>

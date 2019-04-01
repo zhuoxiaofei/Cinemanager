@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+        <TextView android:id="@+id/cinemas_items_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/cinemas_menu_item"
+            tools:text="环球金融中心"
+            android:textSize="20sp"/>
+        <TextView android:id="@+id/cinemas_items_location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="上海市上海市浦东新区"
+            android:textSize="13sp"/>
+
+    </LinearLayout>
+    <LinearLayout
+    android:gravity="right"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_gravity="center_vertical">
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="right"
+        android:src="@drawable/earth55"
+        android:layout_marginEnd="10dp" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,3 +1,16 @@
 <resources>
-    <string name="app_name">Cinemanager</string>
+    <string name="app_name">Filmanager</string>
+    <string name="bar_title_menu_orders">&#160;&#160;我的订单&#160;&#160;</string>
+    <string name="bar_title_menu_add_orders">&#160;&#160;添加订单&#160;&#160;</string>
+    <string name="bar_title_menu_cinema">&#160;&#160;影院列表&#160;&#160;</string>
+    <string name="bar_title_menu_add_cinema">&#160;&#160;添加影院&#160;&#160;</string>
+    <string name="bar_title_menu_exit">&#160;&#160;退出Exit&#160;&#160;</string>
+    <string name="bar_title_menu_add_newCinema">&#160;&#160;添加新影院&#160;&#160;</string>
+    <string name="bar_title_menu_add_site">&#160;&#160;选择地点&#160;&#160;</string>
+    <string name="bar_title_menu_add_area">&#160;&#160;广西柳州市鱼峰区&#160;&#160;</string>
+    <string name="bar_title_menu_add_name">&#160;&#160;请输入电影院名称&#160;&#160;</string>
+    <string name="bar_title_menu_add_cancel">&#160;&#160;取消&#160;&#160;</string>
+    <string name="bar_title_menu_add_ok">&#160;&#160;确定&#160;&#160;</string>
+
 </resources>
+

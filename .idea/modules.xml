@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Cinemanager.iml" filepath="$PROJECT_DIR$/Cinemanager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Cinemanagers.iml" filepath="$PROJECT_DIR$/Cinemanagers.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/simpledatepicker/simpledatepicker.iml" filepath="$PROJECT_DIR$/simpledatepicker/simpledatepicker.iml" />
       <module fileurl="file://$PROJECT_DIR$/sqllib/sqllib.iml" filepath="$PROJECT_DIR$/sqllib/sqllib.iml" />

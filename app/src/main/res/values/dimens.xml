@@ -1,4 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <dimen name="bar_height">50dp</dimen>
+    <dimen name="oneDp">1dp</dimen>
+    <dimen name="fiveDP">5dp</dimen>
+    <dimen name="tenDP">10dp</dimen>
+    <dimen name="fifteenDp">15dp</dimen>
+    <dimen name="twentyDp">20dp</dimen>
+    <dimen name="thirtyDp">30dp</dimen>
+    <dimen name="fortyDp">40dp</dimen>
+    <dimen name="fiftyDp">50dp</dimen>
+    <dimen name="oneHundredDp">100dp</dimen>
+    <dimen name="twoHundredDp">200dp</dimen>
+    <dimen name="oneSp">1sp</dimen>
+    <dimen name="fiveSP">5sp</dimen>
+    <dimen name="tenSP">10sp</dimen>
+    <dimen name="fifteenSp">15sp</dimen>
+    <dimen name="twentySp">20sp</dimen>
+    <dimen name="thirtySp">30sp</dimen>
+    <dimen name="fortySp">40sp</dimen>
+    <dimen name="fiftySp">50sp</dimen>
+    <dimen name="oneHundredSp">100sp</dimen>
+    <dimen name="twoHundredSp">200sp</dimen>
+
 </resources>
