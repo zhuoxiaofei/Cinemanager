@@ -13,41 +13,36 @@ import androidx.fragment.app.Fragment;
 import java.util.Objects;
 
 /**
- *
  * @author lzzy_gxy
  * @date 2019/3/27
  * Description:
  */
 public abstract class BaseFragment extends Fragment {
-    public BaseFragment(){}
+    public BaseFragment() {
+    }
 
     @Nullable
     @Override
-    public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        return inflater.inflate(getLayoutRes(),container,false);
+    public View onCreateView(@NonNull LayoutInflater inflater,
+                             @Nullable ViewGroup container,
+                             @Nullable Bundle savedInstanceState) {
+
+        return inflater.inflate(getLayoutRes(), container, false);
     }
 
     @Override
-    public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
+    public void onViewCreated(@NonNull View view,
+                              @Nullable Bundle savedInstanceState) {
         populate();
     }
 
-    /**
-     * 执行onCreateView中初始化视图组件，填充数据任务
-     */
     protected abstract void populate();
 
-
-    /**
-     * Get according to layout
-     * @return layout
-     */
     protected abstract int getLayoutRes();
 
-    <T extends View> T find(@IdRes int id){
+    <T extends View> T find(@IdRes int id) {
         return Objects.requireNonNull(getView()).findViewById(id);
     }
 
-
-
+    public abstract void search(String kw);
 }

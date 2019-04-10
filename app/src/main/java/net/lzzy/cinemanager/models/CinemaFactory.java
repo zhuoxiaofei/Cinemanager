@@ -20,7 +20,7 @@ public class CinemaFactory {
     }
 
     private CinemaFactory() {
-        repository = new SqlRepository<>(AppUtils.getContext(),Cinema.class, DbConstants.packager);
+        repository = new SqlRepository<>(AppUtils.getContext(), Cinema.class, DbConstants.packager);
     }
 
     public List<Cinema> get(){

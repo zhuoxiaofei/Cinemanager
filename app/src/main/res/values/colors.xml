@@ -3,6 +3,7 @@
     <color name="colorPrimary">#008577</color>
     <color name="colorPrimaryDark">#00574B</color>
     <color name="colorAccent">#D81B60</color>
-    <color name="bg_gray">#F3F3F3</color>
-    <color name="bg_gray_m">#E7E7E7</color>
+    <color name="main_menu_view">#A9A9A9</color>
+    <color name="cinemas_menu_item">#2F4F4F</color>
+    <color name="view_menu_item">#F3F3F3</color>
 </resources>

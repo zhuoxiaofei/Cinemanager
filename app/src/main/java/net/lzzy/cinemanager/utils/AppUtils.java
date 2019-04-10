@@ -1,5 +1,6 @@
 package net.lzzy.cinemanager.utils;
 
+import android.annotation.SuppressLint;
 import android.app.Application;
 import android.content.Context;
 import android.graphics.Bitmap;
@@ -24,10 +25,13 @@ import com.google.zxing.qrcode.decoder.ErrorCorrectionLevel;
 import java.util.Hashtable;
 
 /**
- * Created by lzzy_gxy on 2019/3/11.
+ * @author lzzy_gxy
+ * @date 2019/3/11
  * Description:
  */
+@SuppressLint("Registered")
 public class AppUtils extends Application {
+    @SuppressLint("StaticFieldLeak")
     private static Context context;
 
     @Override
@@ -36,7 +40,7 @@ public class AppUtils extends Application {
         context = getApplicationContext();
     }
 
-    public static Context getContext(){
+    public static Context getContext() {
         return context;
     }
 

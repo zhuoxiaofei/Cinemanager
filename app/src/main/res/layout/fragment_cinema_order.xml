@@ -1,23 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/fragment_cinema_orders"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:orientation="vertical">
 
     <ListView
-        android:id="@+id/activity_cinema_lv"
+        android:id="@+id/activity_cinema_orders_lv"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 
     <TextView
-        android:id="@+id/activity_cinemas_tv_none"
+        android:id="@+id/activity_cinemas_orders_tv_none"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:gravity="center"
         android:text="暂无数据，请添加数据" />
-
-    <include
-        android:id="@+id/fragment_add_cinemas_layout"
-        layout="@layout/fragment_add_cinema"
-        android:visibility="gone" />
 
 </FrameLayout>

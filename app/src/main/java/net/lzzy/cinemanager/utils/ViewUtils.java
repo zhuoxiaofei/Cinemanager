@@ -10,7 +10,7 @@ import android.widget.SearchView;
  * Description:
  */
 public class ViewUtils {
-    public static abstract class AbstractQueryHandler implements SearchView.OnQueryTextListener{
+    public static abstract class AbstractQueryHandler implements SearchView.OnQueryTextListener {
 
         @Override
         public boolean onQueryTextSubmit(String query) {
@@ -24,13 +24,14 @@ public class ViewUtils {
 
         /**
          * handle query logic
+         *
          * @param kw keyword
          * @return end query
          */
         public abstract boolean handleQuery(String kw);
     }
 
-    public static abstract class AbstractTouchHandler implements View.OnTouchListener{
+    public static abstract class AbstractTouchHandler implements View.OnTouchListener {
 
         @SuppressLint("ClickableViewAccessibility")
         @Override
@@ -40,6 +41,7 @@ public class ViewUtils {
 
         /**
          * 处理触摸事件
+         *
          * @param event 触摸事件对象
          * @return 消费触摸事件吗
          */

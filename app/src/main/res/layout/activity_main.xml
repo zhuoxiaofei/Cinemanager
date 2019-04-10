@@ -4,13 +4,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".activities.MainActivity">
-    <FrameLayout android:id="@+id/fragment_container"
-        android:layout_marginTop="50dp"
+
+    <FrameLayout
+        android:id="@+id/fragment_container"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/bar_height" />
 
-    </FrameLayout>
-
-    <include layout="@layout/bar_title"/>
+    <include layout="@layout/bar_title" />
 
 </FrameLayout>
